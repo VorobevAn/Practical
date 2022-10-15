@@ -13,11 +13,13 @@ int number2 = int.Parse(Console.ReadLine()!);
 
 Degree(number1);
 
-int Degree(int num)
+int Degree(int result)
 {
-    int result = 1;
+     result = 1;
     for (int i = 1; i <= number2; i++)
+    {
         result = result * number1;
+    }
     Console.WriteLine(result);
  return result; 
 }
